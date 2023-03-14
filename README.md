@@ -1,4 +1,4 @@
-The project must run when started via npm start.
+# The project must run when started via npm start.
 
 It was built from scratch.
 ![Home](https://user-images.githubusercontent.com/113524377/222074015-40682a1b-5ed0-4d40-a240-2b059ce99472.png)
@@ -10,7 +10,7 @@ It was built from scratch.
 
 
 
-Technologies used:
+# Technologies used:
 
 .Firebase
 .React JS
