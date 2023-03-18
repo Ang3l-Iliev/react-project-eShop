@@ -6,19 +6,19 @@
 }
 
 
-.checkout__ad {
+.checkout_ad {
     width: 65%;
     margin-bottom: 10px;
     margin-left: 20px;
 }
 
-.checkout__title {
+.checkout_title {
     margin-right: 10px;
     padding: 10px;
     border-bottom: 1px solid lightgray;
 }
 
-.checkout__left {
+.checkout_left {
     display: flex;
     flex-direction: column;
 }

@@ -40,13 +40,13 @@ function Login() {
     return (
         <div className='login'> 
             <Link to='/' style={{ textDecoration: "none" }}>
-                <div className="login__logo">
-                    <StorefrontIcon className="login__logoImage" fontSize="large" />
-                    <h2 className="login__logoTitle">eSHOP</h2>
+                <div className="login_logo">
+                    <StorefrontIcon className="login_logoImage" fontSize="large" />
+                    <h2 className="login_logoTitle">eSHOP</h2>
                 </div>
             </Link>
 
-            <div className='login__container'>
+            <div className='login_container'>
                 <h1>Sign-in</h1>
 
                 <form>
@@ -56,7 +56,7 @@ function Login() {
                     <h5>Password</h5>
                     <input type='password' value={password} onChange={e => setPassword(e.target.value)} />
 
-                    <button type='submit' className='login__signInButton' onClick={signIn}>Sign In</button>
+                    <button type='submit' className='login_signInButton' onClick={signIn}>Sign In</button>
                 </form>
 
                 <p>
@@ -64,7 +64,7 @@ function Login() {
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
 
-                <button className='login__registerButton' onClick={register}>Create your eShop Account</button>
+                <button className='login_registerButton' onClick={register}>Create your eShop Account</button>
             </div>
         </div>
     )
